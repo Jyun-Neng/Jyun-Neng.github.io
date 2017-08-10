@@ -1,29 +1,56 @@
+
 nav {
 	background-color: black;
 }
 
-ul {
+#navbarlist {
     list-style-type: none;
     
 }
 
-li {
+.navlist {
 	padding: 10px;
 	float: left;
 }
 
-li a:hover {
+.navlist a:hover {
     text-decoration: none;
 }
 
 .header {
+	background-image: url(http://images.freeimages.com/images/large-previews/6bb/grey-clouds-hanging-around-1636821.jpg);
+	background-size: cover;
+	
 	padding: 20px;
 }
 
 .header-content {
+	
 	text-align: center;
 }
 
 .img-center {
+	border-radius: 99999px;
+	width: 20%;
 
+}
+
+section {
+	margin-top: 20px;
+}
+
+.col-md-8 {
+	margin-left: 10rem;
+}
+
+.blockquote {
+	margin: 10px;
+	font-size: 1rem;
+}
+
+.footer {
+	position: relative;
+	text-align: center;
+	bottom: 0;
+	padding: 4rem;
 }
