@@ -1,6 +1,9 @@
 
-nav {
-	background-color: black;
+.navbar{
+	width: 100%;
+	background: black;
+	position: fixed;
+	z-index: 3;
 }
 
 #navbarlist {
@@ -18,14 +21,14 @@ nav {
 }
 
 .header {
+	padding-top: 60px;
 	background-image: url(http://images.freeimages.com/images/large-previews/6bb/grey-clouds-hanging-around-1636821.jpg);
 	background-size: cover;
 	
-	padding: 20px;
 }
 
 .header-content {
-	
+	padding: 30px 0px;
 	text-align: center;
 }
 
@@ -36,7 +39,7 @@ nav {
 }
 
 section {
-	margin-top: 20px;
+	padding-top: 60px;
 }
 
 .col-md-8 {
