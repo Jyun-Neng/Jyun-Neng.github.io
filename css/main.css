@@ -1,0 +1,29 @@
+nav {
+	background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+	padding: 10px;
+	float: left;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+.header {
+	padding: 20px;
+}
+
+.header-content {
+	text-align: center;
+}
+
+.img-center {
+
+}
