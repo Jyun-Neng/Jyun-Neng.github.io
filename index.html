@@ -12,21 +12,23 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<nav class="navbar">
+	<nav class="navbar navbar-toggleable navbar-inverse bg-inverse fixed-top">
 		<div class="container">
-			<ul id="navbarlist">
-				<li class="navlist"><a href="#"> Jyun-Neng Ji</a></li>
-				<li class="navlist"><a href="#bio">Biosketch</a></li>
-				<li class="navlist"><a href="#lesson">Courses</a></li>
-				<li class="navlist"><a href="#work">Works</a></li>
-			</ul>
+
+			<a href="#" class="navbar-brand">Jyun-Neng Ji</a>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a href="#bio" class="nav-link">Biosketch</a></li>
+					<li class="nav-item"><a href="#lesson" class="nav-link">Course</a></li>
+					<li class="nav-item"><a href="#research" class="nav-link">Research</a></li>
+				</ul>
+			</div>
 		</div>
 	</nav>
-
 	<header class="header">
 		<div class="header-content">
 			<img class="img-center" src="https://avatars2.githubusercontent.com/u/25876033?v=4&u=d132d6c2245cb4b8e9b10e90f0ae3d2cd91cee38&s=400">
-			<h3>Jyun-Neng Ji</h3>
+			<h3 class="mt-4">Jyun-Neng Ji</h3>
 			<p>
 				Graduate Student, EE, NCKU
 				<br>
@@ -37,8 +39,8 @@
 
 	<section id="bio">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-1">
+			<div class="row justify-content-center">
+				<div class="col-8">
 					<h2>Biosketch</h1>
 					<p>畢業於國立彰化師範大學電機工程系，目前就讀於國立成功大學電機工程研究所，主要研究項目為密碼晶片。</p>
 				</div>
@@ -48,8 +50,8 @@
 
 	<section id="lesson">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-8">
+			<div class="row justify-content-center">
+				<div class="col-8">
 					<h2>Courses</h2>
 					<p>以下為我修過或正在修的課程:</p>
 					<ul id="class">
@@ -57,25 +59,44 @@
 						<blockquote class="blockquote">
 							<p>description</p>
 						</blockquote>
+						<div class="d-flex flex-row-reverse">
+							<a href="#" class="btn btn-primary">MORE</a>
+						</div>
 						<li>VLSI System Design</li>
 						<blockquote class="blockquote">
 							<p>description</p>
 						</blockquote>
+						<div class="d-flex flex-row-reverse">
+							<a href="#" class="btn btn-primary">MORE</a>
+						</div>
 						<li>Network Management</li>
 						<blockquote class="blockquote">
 							<p>description</p>
 						</blockquote>
+						<div class="d-flex flex-row-reverse">
+							<a href="#" class="btn btn-primary">MORE</a>
+						</div>
 						<li>Digital Signal Processing</li>
 						<blockquote class="blockquote">
 							<p>description</p>
 						</blockquote>
+						<div class="d-flex flex-row-reverse">
+							<a href="#" class="btn btn-primary">MORE</a>
+						</div>
+						<li>Theory and Application of Formal Verification</li>
+						<blockquote class="blockquote">
+							<p>description</p>
+						</blockquote>
+						<div class="d-flex flex-row-reverse">
+							<a href="#" class="btn btn-primary">MORE</a>
+						</div>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<footer class="footer">
+	<footer class="footer p-5">
 		Copyright &copy; Jyun-Neng Ji 2017
 	</footer>
 
