@@ -30,3 +30,7 @@ section {
 	text-align: center;
 	bottom: 0;
 }
+
+.jumbotron {
+	height: 800px;
+}
