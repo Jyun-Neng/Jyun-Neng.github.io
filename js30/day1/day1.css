@@ -19,6 +19,8 @@
 }
 .d-flex {
     height: calc(100vh - 40px - 1rem);
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 #day1 {
     background: linear-gradient(gray,white) no-repeat;
