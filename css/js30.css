@@ -1,0 +1,22 @@
+.sidebar {
+    position: fixed;
+    height: 100%;
+}
+
+.sidebar-sticky {
+  position: sticky;
+  height: calc(100vh - 40px);
+  overflow-x: hidden;
+  overflow-y: auto; 
+}
+
+.sidebar .nav-link {
+    color: #333;
+}
+.nav-link:hover {
+    background: gray;
+    color: white;
+}
+.d-flex {
+    height: calc(100vh - 40px - 1rem);
+}
