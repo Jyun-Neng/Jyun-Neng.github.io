@@ -1,0 +1,46 @@
+.sidebar {
+    position: fixed;
+    height: 100%;
+}
+
+.sidebar-sticky {
+  position: sticky;
+  height: calc(100vh - 40px);
+  overflow-x: hidden;
+  overflow-y: auto; 
+}
+
+.sidebar .nav-link {
+    color: #333;
+}
+.nav-link:hover {
+    background: gray;
+    color: white;
+}
+
+#day2 {
+    background: linear-gradient(gray,white) no-repeat;
+    min-height: calc(100vh - 40px - 1rem);
+}
+
+.clock-block {
+    min-height: calc(100vh - 40px - 7rem);
+}
+
+.clock {
+    border: solid 1rem white;
+    border-radius: 50%;
+    width: 16rem;
+    height: 16rem;
+}
+.hand {
+    width: 50%;
+    background: black;
+    height: 0.3rem;
+    width: 6rem;
+    top: 50%;
+    right: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.01s;
+}
